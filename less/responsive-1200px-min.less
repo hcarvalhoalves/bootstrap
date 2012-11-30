@@ -2,27 +2,46 @@
 // Responsive: Large desktop and up
 // --------------------------------------------------
 
+// Grid system and page structure
+// @import "scaffolding/1200px-min.less";
+@import "grid/1200px-min.less";
+// @import "layouts/1200px-min.less";
 
-@media (min-width: 1200px) {
+// Base CSS
+// @import "type/1200px-min.less";
+// @import "code/1200px-min.less";
+// @import "forms/1200px-min.less";
+// @import "tables/1200px-min.less";
 
-  // Fixed grid
-  #grid > .core(@gridColumnWidth1200, @gridGutterWidth1200);
+// Components: common
+// @import "sprites/1200px-min.less";
+// @import "dropdowns/1200px-min.less";
+// @import "wells/1200px-min.less";
+// @import "component-animations/1200px-min.less";
+// @import "close/1200px-min.less";
 
-  // Fluid grid
-  #grid > .fluid(@fluidGridColumnWidth1200, @fluidGridGutterWidth1200);
+// Components: Buttons & Alerts
+// @import "buttons/1200px-min.less";
+// @import "button-groups/1200px-min.less";
+// @import "alerts/1200px-min.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
 
-  // Input grid
-  #grid > .input(@gridColumnWidth1200, @gridGutterWidth1200);
+// Components: Nav
+// @import "navs/1200px-min.less";
+// @import "navbar/1200px-min.less";
+// @import "breadcrumbs/1200px-min.less";
+// @import "pagination/1200px-min.less";
+// @import "pager/1200px-min.less";
 
-  // Thumbnails
-  .thumbnails {
-    margin-left: -@gridGutterWidth1200;
-  }
-  .thumbnails > li {
-    margin-left: @gridGutterWidth1200;
-  }
-  .row-fluid .thumbnails {
-    margin-left: 0;
-  }
+// Components: Popovers
+// @import "modals/1200px-min.less";
+// @import "tooltip/1200px-min.less";
+// @import "popovers/1200px-min.less";
 
-}
+// Components: Misc
+// @import "thumbnails/1200px-min.less";
+// @import "media/1200px-min.less";
+// @import "labels-badges/1200px-min.less";
+// @import "progress-bars/1200px-min.less";
+// @import "accordion/1200px-min.less";
+// @import "carousel/1200px-min.less";
+// @import "hero-unit/1200px-min.less";

@@ -2,18 +2,46 @@
 // Responsive: Tablet to desktop
 // --------------------------------------------------
 
+// Grid system and page structure
+// @import "scaffolding/768px-979px.less";
+@import "grid/768px-979px.less";
+// @import "layouts/768px-979px.less";
 
-@media (min-width: 768px) and (max-width: 979px) {
+// Base CSS
+// @import "type/768px-979px.less";
+// @import "code/768px-979px.less";
+// @import "forms/768px-979px.less";
+// @import "tables/768px-979px.less";
 
-  // Fixed grid
-  #grid > .core(@gridColumnWidth768, @gridGutterWidth768);
+// Components: common
+// @import "sprites/768px-979px.less";
+// @import "dropdowns/768px-979px.less";
+// @import "wells/768px-979px.less";
+// @import "component-animations/768px-979px.less";
+// @import "close/768px-979px.less";
 
-  // Fluid grid
-  #grid > .fluid(@fluidGridColumnWidth768, @fluidGridGutterWidth768);
+// Components: Buttons & Alerts
+// @import "buttons/768px-979px.less";
+// @import "button-groups/768px-979px.less";
+// @import "alerts/768px-979px.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
 
-  // Input grid
-  #grid > .input(@gridColumnWidth768, @gridGutterWidth768);
+// Components: Nav
+// @import "navs/768px-979px.less";
+// @import "navbar/768px-979px.less";
+// @import "breadcrumbs/768px-979px.less";
+// @import "pagination/768px-979px.less";
+// @import "pager/768px-979px.less";
 
-  // No need to reset .thumbnails here since it's the same @gridGutterWidth
+// Components: Popovers
+// @import "modals/768px-979px.less";
+// @import "tooltip/768px-979px.less";
+// @import "popovers/768px-979px.less";
 
-}
+// Components: Misc
+// @import "thumbnails/768px-979px.less";
+// @import "media/768px-979px.less";
+// @import "labels-badges/768px-979px.less";
+// @import "progress-bars/768px-979px.less";
+// @import "accordion/768px-979px.less";
+// @import "carousel/768px-979px.less";
+// @import "hero-unit/768px-979px.less";
